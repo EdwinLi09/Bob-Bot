@@ -1,6 +1,6 @@
 # Bob-Bot
-•	Built a little simulation that uses Python with turtle, allowing users to interact with a bot that is programmed to respond to certain tasks.
-•	Used the turtle module to create graphics that correspond to the story of the simulation, enhancing user experience.
+- Built a little simulation that uses Python with turtle, allowing users to interact with a bot that is programmed to respond to certain tasks.
+- Used the turtle module to create graphics that correspond to the story of the simulation, enhancing user experience.
 
 
 # An overview of this simulation:
