@@ -1,4 +1,4 @@
-# Business-Simulation
+# Bob-Bot
 Created a little simulation that interacts with users using Python Turtle. 
 
 # An overview of this simulation:
