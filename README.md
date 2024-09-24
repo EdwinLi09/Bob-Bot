@@ -1,4 +1,5 @@
-This project features console-based interactive narratives and simulations, complemented by graphical user interface visuals. Users can engage in decision-making processes through engaging dialogues and visual representations based on their inputs. Some of the features include: 
+This project features console-based interactive narratives and simulations, complemented by graphical user interface visuals. Users can engage in decision-making processes through engaging dialogues and visual representations based on their inputs.<br/> 
+The main features of this project include:
 1. Console-based stores and simulations that respond to user decisions.
 2. Visuals generated using Turtle graphics to enhance user engagement.
 3. Active dialogues that adapt to user inputs for a personalized experience.
