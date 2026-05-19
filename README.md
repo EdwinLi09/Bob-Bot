@@ -30,7 +30,7 @@ The game unfolds in three acts:
 The project uses a small driver script that sets up the fullscreen turtle screen and loads the game module:
 
 ```bash
-python driver.py turtle.py
+python driver.py game.py
 ```
 
 The driver opens a fullscreen turtle window, then drops you into an interactive Python REPL while the game runs. Close the window or exit the REPL to end the session.
@@ -40,7 +40,7 @@ The driver opens a fullscreen turtle window, then drops you into an interactive 
 | File | Purpose |
 |------|---------|
 | `driver.py` | Sets up the turtle screen in fullscreen mode, loads the game module, and opens an interactive REPL. |
-| `turtle.py` | The game itself — story, prompts, and all the drawing routines (`room`, `draw_chair`, `draw_table`, `draw_sofa`, `draw_stick_figure`). |
+| `game.py` | The game itself — story, prompts, and all the drawing routines (`room`, `draw_chair`, `draw_table`, `draw_sofa`, `draw_stick_figure`). |
 
 ## How to Play
 
@@ -54,7 +54,7 @@ The game will gently nudge you back on track if it doesn't understand your input
 
 ## Notes
 
-- The game file is named `turtle.py`, which shadows Python's built-in `turtle` module if you try to run it directly from its own directory without the driver. Running it via `driver.py` (which imports turtle first) avoids this.
+- The game file is named `game.py`, which shadows Python's built-in `turtle` module if you try to run it directly from its own directory without the driver. Running it via `driver.py` (which imports turtle first) avoids this.
 - Drawing speed is set to instant for most operations, with brief slowdowns during furniture drawing for dramatic flair.
 - All text output uses `time.sleep()` pacing so the story has room to breathe — be patient between prompts.
 
